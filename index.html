@@ -91,12 +91,12 @@
     <p>
         How do speech models trained through self-supervised learning structure their representations?
         Previous studies have looked at how information is encoded in feature vectors across different layers.
-        But few studies have considered whether speech characteristics are captured <i>within</i> individual dimensions of SSL features.
+        But few studies have considered whether speech characteristics are captured \textit{within} individual dimensions of SSL features.
         In this paper we specifically look at speaker information using PCA on utterance-averaged representations.
-        Using WavLM, we find that the principal dimension that explains most variance encodes pitch, and associated characteristics like gender.
+        For a range of SSL models, we find that the principal dimension that explains most variance encodes pitch and associated characteristics like gender.
         Other individual principal dimensions correlate with intensity, noise levels, the second formant, and higher frequency characteristics.
-        Finally, in subsequent synthesis experiments, we show that most characteristics can be controlled by changing the corresponding dimensions.
-        We show that this control is isolated control which results in high quality audio synthesis.
+        We then use synthesis analyses to show that the dimensions for most characteristics are isolated from each other's influence.
+        We further show that characteristics can be changed by manipulating the corresponding dimensions.
     </p>
 
     <p>
